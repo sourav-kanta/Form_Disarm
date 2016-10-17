@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "87047771410",
+    "firebase_url": "https://disarm-6d727.firebaseio.com",
+    "project_id": "disarm-6d727",
+    "storage_bucket": "disarm-6d727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87047771410:android:7749f5450888f799",
+        "android_client_info": {
+          "package_name": "com.example.userpc.form_sutdio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87047771410-oe030h8n6le1ioirvmpt4s4ilnm4ll31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL1Bh9VGb6Eum8BL5K3gqTD0QtIHxSOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
