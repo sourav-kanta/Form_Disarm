@@ -113,6 +113,7 @@ public class Village extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.village);
+		getActionBar().setIcon(R.drawable.toplogo);
 		rad=(RadioGroup) findViewById(R.id.group);
 		fetchVillage f=new fetchVillage(Village.this);
 		f.execute();

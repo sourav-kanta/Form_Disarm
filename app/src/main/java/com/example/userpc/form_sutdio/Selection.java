@@ -125,6 +125,7 @@ public class Selection extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.selection);
+		getActionBar().setIcon(R.drawable.toplogo);
 		category=new ArrayList<CheckBox>();
 		
 		Intent rec=getIntent();

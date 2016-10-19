@@ -23,11 +23,11 @@ public class FireBaseMessagingService extends FirebaseMessagingService {
 
     private void showNotification(String messageBody) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-        builder.setSmallIcon(R.mipmap.ic_launcher);
+        builder.setSmallIcon(R.drawable.logo_noti);
         Intent intent = new Intent(getApplicationContext(),Village.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
-        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher));
+        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.logo_noti));
         builder.setContentTitle("Disarm");
         builder.setContentText(messageBody);
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);

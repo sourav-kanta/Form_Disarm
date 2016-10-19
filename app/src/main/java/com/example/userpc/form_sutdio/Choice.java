@@ -32,6 +32,7 @@ public class Choice extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.choice);
+		getActionBar().setIcon(R.drawable.toplogo);
 		Intent i=getIntent();
 		Bundle b=i.getExtras();
 		village=b.getString("village");
