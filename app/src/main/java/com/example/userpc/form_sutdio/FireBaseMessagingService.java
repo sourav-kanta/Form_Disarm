@@ -27,7 +27,7 @@ public class FireBaseMessagingService extends FirebaseMessagingService {
         Intent intent = new Intent(getApplicationContext(),Village.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
-        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.logo_noti));
+        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.gcm_icon));
         builder.setContentTitle("Disarm");
         builder.setContentText(messageBody);
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);

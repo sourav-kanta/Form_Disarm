@@ -39,7 +39,6 @@ public class LoginActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loginpg);
-		getActionBar().setIcon(R.drawable.toplogo);
 		EditText t=(EditText) findViewById(R.id.editText1);
 		EditText vill=(EditText) findViewById(R.id.EditText01);
 		Button b=(Button) findViewById(R.id.login);

@@ -338,7 +338,6 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		getActionBar().setIcon(R.drawable.toplogo);
 		Intent i=getIntent();
 		Bundle b=i.getExtras();
 		String clause=b.getString("query");
