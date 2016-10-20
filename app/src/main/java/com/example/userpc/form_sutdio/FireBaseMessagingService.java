@@ -23,7 +23,7 @@ public class FireBaseMessagingService extends FirebaseMessagingService {
 
     private void showNotification(String messageBody) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-        builder.setSmallIcon(R.drawable.logo_noti);
+        builder.setSmallIcon(R.drawable.gcm_icon);
         Intent intent = new Intent(getApplicationContext(),Village.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
